@@ -1,0 +1,83 @@
+<html>
+<head>
+<title> Maria's work Space </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<img src="logo.png" width="120px" height="70px">
+<div id="contact">
+<b><h3> 0203 944 7630</h3></b>
+<h5> Call us to book a viewing </h5>
+<button class="button" onClick="myFunction()"> Book Now </button>
+</div>
+<div class="centerit">
+<h2> Welcome to workspace. Home to Egypt's brightest business. </h2>
+<input type="text" placeholder="Where do you want to work?" size="80">
+<button class="button" onClick="myFunction()"> Find your workspace </button>
+</div>
+<br>
+<center><h1 class="margin"> FIND YOUR PERFECT SPACE </h1></center>
+<div class="objects">
+<img src="1.png" width="300px" height="200px">
+<h4>Mirror Works</h4>
+<p>12 Marshgate Lane, E15 2NH
+Pudding Mill Lane - 3 min walk
+Mirror Works is a super-modern luxe office building in the action-packed vibrant Stratford neighbourhood of east London.</p>
+<button class="button" onClick="myFunction()"> Reserve Now </button>
+</div>
+<div class="objects">
+<img src="2.png" width="300px" height="200px">
+<h4>Lock Studios</h4>
+<p>7 Corsican Square, E3 3YD
+Devons Road - 1 min walk
+In the heart of Bow, Lock Studios is perfect if you are East London based or want to be near Canary Wharf or Stratford.</p>
+<button class="button" onClick="myFunction()"> Reserve Now </button>
+</div>
+<div class="objects">
+<img src="3.png" width="300px" height="200px">
+<h4>Kennington Park</h4>
+<p>1 -3 Brixton Road, Oval, SW9 6DE
+Oval - 4 min walk
+The former home to London's black cabs, now a hive of creativity in a vibrant professional community, minutes from Oval station.</p>
+<button class="button" onClick="myFunction()"> Reserve Now </button>
+</div>
+<div class="objects">
+<img src="4.png" width="300px" height="200px">
+<h4>Salisbury House</h4>
+<p>Salisbury House, London Wall, EC2M 5SQ
+Moorgate - 1 min walk
+A remarkable grade II listed building in the heart of Finsbury Circus, easily accessible from anywhere in the City.</p>
+<button class="button" onClick="myFunction()"> Reserve Now </button>
+</div>
+<div class="objects">
+<img src="5.png" width="300px" height="200px">
+<h4>The Light Bulb</h4>
+<p>1 Filament Walk, Wandsworth, SW18 4GQ
+Wandsworth Town - 12 min walk
+The Light Bulb, featuring a new wing, is nestled in the heart of Wandsworth, in an area formerly known for manufacturing switches, plugs and sockets.</p>
+<button class="button" onClick="myFunction()"> Reserve Now </button>
+</div>
+<hr>
+<div class="form">
+<form>
+	<h1> Reserve Request </h1>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Doe">
+  <button class="button" onClick="myFunction()"> Submit </button>
+</form>
+</div>
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Are you Sure?")) {
+    txt = "Request has been sent!";
+  } else {
+    txt = "Request has been cancelled!";
+  }
+  alert(txt);
+}
+</script>
+</body>
+</html>
